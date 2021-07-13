@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Chao Zhang's Blog
-tagline: Record every single beautiful day
+tagline: Life is a moment
 # heroImage: /hero.png
 # heroImageStyle:
 #   {

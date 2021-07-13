@@ -1,6 +1,6 @@
 module.exports = {
   title: "Chao Zhang",
-  description: "A blog to record every single beautiful day",
+  description: "Record every single beautiful day",
   dest: "public",
   head: [
     [
@@ -22,6 +22,7 @@ module.exports = {
   themeConfig: {
     mode: "dark", // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
     modePicker: true, // 默认 true，false 不显示模式调节按钮，true 则显示
+    noFoundPageByTencent: false,
     nav: [
       {
         text: "Home",
@@ -34,14 +35,9 @@ module.exports = {
         icon: "reco-date",
       },
       {
-        text: "Docs",
-        icon: "reco-message",
-        items: [
-          {
-            text: "vuepress-reco",
-            link: "/docs/theme-reco/",
-          },
-        ],
+        text: "About",
+        link: "/about/",
+        icon: "reco-book",
       },
       {
         text: "Contact",
@@ -49,8 +45,18 @@ module.exports = {
         items: [
           {
             text: "GitHub",
-            link: "https://github.com/recoluan",
+            link: "https://github.com/chaozhangdev",
             icon: "reco-github",
+          },
+          {
+            text: "Linkedin",
+            link: "https://www.linkedin.com/in/chao-zhang-727b8b15b/",
+            icon: "reco-linkedin",
+          },
+          {
+            text: "Email",
+            link: "mailto:chaozhangdev@gmail.com",
+            icon: "reco-mail",
           },
         ],
       },

@@ -7,6 +7,7 @@ tags:
   - GIS
 categories:
   - Research
+sticky: 2
 ---
 
 ## Abstract
@@ -156,7 +157,6 @@ The project provides route navigation from property addresses to nearest or spec
 _Python solution demo: shortest route calculation_
 
 ```python
-
 import arcpy
 import math
 import re
