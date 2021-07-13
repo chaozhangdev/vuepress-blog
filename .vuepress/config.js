@@ -1,6 +1,6 @@
 module.exports = {
   title: "Chao Zhang",
-  description: "Record every single beautiful day",
+  description: "Life is a moment",
   dest: "public",
   head: [
     [
@@ -37,7 +37,7 @@ module.exports = {
       {
         text: "About",
         link: "/about/",
-        icon: "reco-book",
+        icon: "reco-coding",
       },
       {
         text: "Contact",
@@ -61,7 +61,7 @@ module.exports = {
         ],
       },
     ],
-    subSidebar: "auto",
+    // subSidebar: "auto",
     type: "blog",
     blogConfig: {
       category: {
@@ -91,11 +91,11 @@ module.exports = {
     logo: "/xxx.jpg",
     search: true,
     searchMaxSuggestions: 10,
-    lastUpdated: "Last Updated",
+    // lastUpdated: "Last Updated",
     author: "Chao Zhang",
     authorAvatar: "/chao.jpg",
-    record: "xxxx",
-    startYear: "2021",
+    // record: "xxxx",
+    startYear: "2018",
   },
   plugins: [
     // "@vuepress-reco/vuepress-plugin-kan-ban-niang"
