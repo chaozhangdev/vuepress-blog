@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Chao Zhang's Blog
-tagline: Life is a moment
+# tagline: Record every single beautiful day
 # heroImage: /hero.png
 # heroImageStyle:
 #   {
@@ -14,14 +14,14 @@ tagline: Life is a moment
 #   }
 # bgImage: /bg.png
 bgImageStyle: { height: 100vh }
-isShowTitleInHome: false
-actionText: Guide
-actionLink: /views/other/guide
-features:
-  - title: Blog
-    details: Tech blog
-  - title: Today
-    details: Record my front end learning
-  - title: Tomorrow
-    details: Become better
+# isShowTitleInHome: false
+# actionText: Guide
+# actionLink: /views/other/guide
+# features:
+#   - title: Blog
+#     details: Tech blog
+#   - title: Today
+#     details: Record my front end learning
+#   - title: Tomorrow
+#     details: Become better
 ---
