@@ -10,9 +10,13 @@ categories:
 sticky: 1
 ---
 
+:::tip
 I would like to write this blog to thank [Dr. Xue Dong Yang](https://www.cs.uregina.ca/People/Profiles/XueDongYang.html) during my graduate studies in computer graphics.
 
-He instructed me step by step to fully understand `Ray Tracing` & `Volumn Rendering` algorithms and write the source code to realize them.
+He instructed us step by step to fully understand `Ray Tracing` & `Volumn Rendering` algorithms and write the source code to realize them.
+:::
+
+<!-- more  -->
 
 ## Ray Tracing
 

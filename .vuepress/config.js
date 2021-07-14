@@ -20,7 +20,8 @@ module.exports = {
   ],
   theme: "reco",
   themeConfig: {
-    mode: "auto", // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
+    subSidebar: "auto", //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
+    mode: "dark", // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
     modePicker: true, // 默认 true，false 不显示模式调节按钮，true 则显示
     noFoundPageByTencent: false,
     nav: [
@@ -37,7 +38,7 @@ module.exports = {
       {
         text: "About",
         link: "/about/",
-        icon: "reco-coding",
+        icon: "reco-account",
       },
       {
         text: "Contact",
@@ -59,6 +60,11 @@ module.exports = {
             icon: "reco-mail",
           },
         ],
+      },
+      {
+        text: "CodingFun",
+        link: "https://www.codingfunedu.com/",
+        icon: "reco-coding",
       },
     ],
     // subSidebar: "auto",
