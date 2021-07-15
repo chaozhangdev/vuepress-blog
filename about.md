@@ -1,4 +1,6 @@
-Hi, I’m Chao Zhang, currently I live in Vancouver working as a Software Engineer. My daily work include web and mobile dev. Most of the time, I focus on Front End Development.
+Hi there, I’m Chao Zhang.
+
+Currently I live in Vancouver working as a Software Engineer. My daily work include web and mobile dev. Most of the time, I focus on Front End Development.
 
 I established [Coding Fun Education](https://www.codingfun.dev/) in 2019 Sep to provide students with online coding education. It lets students quickly learn the fundamental of different programming languages in a fun way.
 
