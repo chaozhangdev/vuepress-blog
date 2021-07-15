@@ -7,7 +7,7 @@ module.exports = {
       "link",
       {
         rel: "icon",
-        href: "/xxx.jpg",
+        href: "/logo.png",
       },
     ],
     [
@@ -94,7 +94,7 @@ module.exports = {
     //     link: "https://vuepress-theme-reco.recoluan.com",
     //   },
     // ],
-    logo: "/xxx.jpg",
+    // logo: "/logo.png",
     search: true,
     searchMaxSuggestions: 10,
     // lastUpdated: "Last Updated",
