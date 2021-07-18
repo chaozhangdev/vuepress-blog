@@ -5,7 +5,6 @@ tags:
   - JavaScript
 categories:
   - JavaScript
-author: Sukhjinder Arora
 ---
 
 :::tip
@@ -16,11 +15,9 @@ How JavaScript Programs are Executed Internally
 
 ## What is an Execution Context?
 
-Simply put, an execution context is an abstract concept of an environment where the Javascript code is evaluated and executed. Whenever any code is run in JavaScript, it’s run inside an execution context.
+An execution context is an abstract concept of an environment where the Javascript code is evaluated and executed. Whenever any code is run in JavaScript, it’s run inside an execution context.
 
-Types of Execution Context:
-
-There are three types of execution context in JavaScript.
+3 Types of Execution Context:
 
 - Global Execution Context: This is the default or base execution context. The code that is not inside any function is in the global execution context. It performs two things: it creates a global object which is a window object (in the case of browsers) and sets the value of this to equal to the global object. There can only be one global execution context in a program.
 
@@ -35,7 +32,7 @@ When the JavaScript engine first encounters your script, it creates a global exe
 
 The engine executes the function whose execution context is at the top of the stack. When this function completes, its execution stack is popped off from the stack, and the control reaches to the context below it in the current stack.
 
-Let’s understand this with a code example below:
+<!-- Let’s understand this with a code example below: -->
 
 ```js
 let a = "Hello World!";
@@ -55,15 +52,15 @@ An Execution Context Stack for the above code:
 
 ![alt text](https://miro.medium.com/max/2000/1*ACtBy8CIepVTOSYcVwZ34Q.png)
 
-When the above code loads in the browser, the Javascript engine creates a global execution context and pushes it to the current execution stack. When a call to `first()` is encountered, the Javascript engines creates a new execution context for that function and pushes it to the top of the current execution stack.
+<!-- When the above code loads in the browser, the Javascript engine creates a global execution context and pushes it to the current execution stack. When a call to `first()` is encountered, the Javascript engines creates a new execution context for that function and pushes it to the top of the current execution stack.
 
 When the `second()` function is called from within the `first()` function, the Javascript engine creates a new execution context for that function and pushes it to the top of the current execution stack. When the `second()` function finishes, its execution context is popped off from the current stack, and the control reaches to the execution context below it, that is the `first()` function execution context.
 
-When the `first()` finishes, its execution stack is removed from the stack and control reaches to the global execution context. Once all the code is executed, the JavaScript engine removes the global execution context from the current stack.
+When the `first()` finishes, its execution stack is removed from the stack and control reaches to the global execution context. Once all the code is executed, the JavaScript engine removes the global execution context from the current stack. -->
 
 ## How is the Execution Context created?
 
-Up until now, we have seen how the JavaScript engine manages the execution context, Now let’s understand how an execution context is created by the JavaScript engine.
+<!-- Up until now, we have seen how the JavaScript engine manages the execution context, Now let’s understand how an execution context is created by the JavaScript engine. -->
 
 The execution context is created in two phases: **1) Creation Phase** and **2) Execution Phase**.
 
@@ -91,7 +88,7 @@ The official ES6 docs define Lexical Environment as
 A Lexical Environment is a specification type used to define the association of Identifiers to specific variables and functions based upon the lexical nesting structure of ECMAScript code. A Lexical Environment consists of an Environment Record and a possibly null reference to an outer Lexical Environment.
 :::
 
-Simply put, A lexical environment is a structure that holds **identifier-variable mapping**. (here **identifier** refers to the name of variables/functions, and the **variable** is the reference to actual object [including function object and array object] or primitive value).
+A lexical environment is a structure that holds **identifier-variable mapping**. (here **identifier** refers to the name of variables/functions, and the **variable** is the reference to actual object [including function object and array object] or primitive value).
 
 For example, consider the following snippet:
 
@@ -206,7 +203,7 @@ In this phase assignments to all those variables are done and the code is finall
 
 ## Example
 
-Let’s look at some example to understand the above concepts:
+<!-- Let’s look at some example to understand the above concepts: -->
 
 ```js
 let a = 20;

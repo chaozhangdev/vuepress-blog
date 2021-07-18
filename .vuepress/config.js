@@ -7,7 +7,7 @@ module.exports = {
       "link",
       {
         rel: "icon",
-        href: "/logo.png",
+        href: "coding-cat.png",
       },
     ],
     [
@@ -99,7 +99,7 @@ module.exports = {
     searchMaxSuggestions: 10,
     // lastUpdated: "Last Updated",
     author: "Chao Zhang",
-    authorAvatar: "/chao.jpg",
+    authorAvatar: "/coding-cat.png",
     // record: "xxxx",
     startYear: "2018",
   },

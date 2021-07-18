@@ -1,8 +1,8 @@
 ---
 home: true
 heroText: Chao Zhang's Blog
-# tagline: Record every single beautiful day
-# heroImage: /hero.png
+tagline: Record every single beautiful day
+# heroImage: /coding-cat.png
 # heroImageStyle:
 #   {
 #     maxWidth: "600px",
@@ -12,8 +12,8 @@ heroText: Chao Zhang's Blog
 #     background: "#fff",
 #     borderRadius: "1rem",
 #   }
-# bgImage: /bg.png
-bgImageStyle: { height: 100vh }
+# bgImage: /coding-cat.png
+# bgImageStyle: { height: 100vh }
 # isShowTitleInHome: false
 # actionText: Guide
 # actionLink: /views/other/guide
