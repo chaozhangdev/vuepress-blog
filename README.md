@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: Chao Zhang's Blog
-tagline: Record every single beautiful day
+heroText: Chao Zhang
+tagline: ""
 # heroImage: /coding-cat.png
 # heroImageStyle:
 #   {
@@ -12,8 +12,8 @@ tagline: Record every single beautiful day
 #     background: "#fff",
 #     borderRadius: "1rem",
 #   }
-# bgImage: /coding-cat.png
-bgImageStyle: { height: 100vh }
+bgImage: "bulb-bg.jpg"
+bgImageStyle: { height: 400px }
 # isShowTitleInHome: false
 # actionText: Guide
 # actionLink: /views/other/guide
