@@ -13,7 +13,7 @@ tagline: Record every single beautiful day
 #     borderRadius: "1rem",
 #   }
 # bgImage: /coding-cat.png
-# bgImageStyle: { height: 100vh }
+bgImageStyle: { height: 100vh }
 # isShowTitleInHome: false
 # actionText: Guide
 # actionLink: /views/other/guide
