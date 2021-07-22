@@ -12,8 +12,8 @@ tagline: ""
 #     background: "#fff",
 #     borderRadius: "1rem",
 #   }
-bgImage: "bulb-bg.jpg"
-bgImageStyle: { height: 400px }
+bgImage: "sky-bg.jpg"
+bgImageStyle: { height: 100vh }
 # isShowTitleInHome: false
 # actionText: Guide
 # actionLink: /views/other/guide

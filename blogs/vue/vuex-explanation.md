@@ -9,9 +9,11 @@ categories:
   - Vue
 ---
 
+## Introduction
+
 Vue uses centralized storage to manage the state of all components of the application, and uses corresponding rules to ensure that the state changes in a predictable manner.
 
-Vuex solves the problem that multiple views rely on the same state and behaviors from different views need to change the same state, which lets us focus on the update of data rather than the transmission of data between components.
+It solves the problem that multiple views rely on the same state and behaviors from different views need to change the same state, which lets us focus on the update of data rather than the transmission of data between components.
 
 ## Overview
 

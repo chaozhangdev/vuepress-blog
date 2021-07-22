@@ -7,12 +7,14 @@ tags:
   - GIS
 categories:
   - Research
-sticky: 2
+sticky: 1
 ---
 
 ## Abstract
 
-As the demand for navigation access increases so does the improvement of software development, more and more navigation tools have been created for efficient life among cities. This project is to create a new navigation toolbox based on ArcGIS by python scripts to provide users shortest route information among two arbitrary places among the city of Vancouver. The input are citizens addresses ID or names of different places with their types and results can offer users detailed navigation including street names, travelling distances and positions of street intersections. Key word: navigation; shortest route; Dijskra’s algorithm.
+As the demand for navigation access increases so does the improvement of software development, more and more navigation tools have been created for efficient life among cities. This project is to create a new navigation toolbox based on ArcGIS by python scripts to provide users shortest route information among two arbitrary places among the city of Vancouver. The input are citizens addresses ID or names of different places with their types and results can offer users detailed navigation including street names, travelling distances and positions of street intersections.
+
+Key word: _navigation_; _shortest route_; _Dijskra’s algorithm_.
 
 ## Introduction
 

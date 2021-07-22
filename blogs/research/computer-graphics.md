@@ -7,7 +7,6 @@ tags:
   - Computer Graphics
 categories:
   - Research
-sticky: 1
 ---
 
 I would like to write this blog to thank [Dr. Xue Dong Yang](https://www.cs.uregina.ca/People/Profiles/XueDongYang.html) during my graduate studies in computer graphics.
