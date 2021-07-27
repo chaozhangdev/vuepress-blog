@@ -21,7 +21,7 @@ module.exports = {
   theme: "reco",
   themeConfig: {
     subSidebar: "auto", //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
-    mode: "dark", // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
+    mode: "light", // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
     modePicker: true, // 默认 true，false 不显示模式调节按钮，true 则显示
     noFoundPageByTencent: false,
     nav: [
@@ -99,7 +99,7 @@ module.exports = {
     searchMaxSuggestions: 10,
     // lastUpdated: "Last Updated",
     author: "Chao Zhang",
-    authorAvatar: "/blackcat.png",
+    authorAvatar: "/catg.png",
     // record: "xxxx",
     startYear: "2018",
   },

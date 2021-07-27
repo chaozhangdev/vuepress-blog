@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Chao Zhang
-tagline: ""
+# tagline: ""
 # heroImage: /coding-cat.png
 # heroImageStyle:
 #   {
@@ -12,8 +12,8 @@ tagline: ""
 #     background: "#fff",
 #     borderRadius: "1rem",
 #   }
-bgImage: "sky-bg.jpg"
-bgImageStyle: { height: 100vh }
+# bgImage: "sky-bg.jpg"
+# bgImageStyle: { height: 300px }
 # isShowTitleInHome: false
 # actionText: Guide
 # actionLink: /views/other/guide
