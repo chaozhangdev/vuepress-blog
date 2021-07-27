@@ -7,9 +7,13 @@ categories:
   - CSS
 ---
 
+During our develpoment, most of the time, we just use libraries for the grid layout like bootstrap `row` & `col`. In addition, for the responsive design, we can easily try `sm={12}`, `md= {6}` and `lg={3}` by these libraries.
+
+Today let's get rid of these libraries and discover the native css grid layout.
+
 ## Introduction
 
-The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning
+The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
 
 ```html
 <h1>The grid-column-gap</h1>
