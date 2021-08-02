@@ -332,6 +332,8 @@ This is, what we call hoisting.
 
 **Note** — During the execution phase, if the JavaScript engine couldn’t find the value of `let` variable at the actual place it was declared in the source code, then it will assign it the value of `undefined`.
 
+[Refernece](https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0)
+
 <!--
 ## Type of execution context
 
