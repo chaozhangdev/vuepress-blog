@@ -154,7 +154,7 @@ This toolbox is created to handle all navigation among Vancouver so it may take 
 
 The project provides route navigation from property addresses to nearest or specific schools, libraries and parks and also between two arbitrary given places among city of Vancouver. From attributes in different shape files, spatial data like XY coordinates of objects has been found to analyse and yield the toolbox. Also, the relationship between attributes in every shape file should be generated from object ID to its other attributes for getting access to all the information. From this project, I have gained knowledge in searching GIS data online, creating maps by ArcGIS, spatial data analysis, skills of Python Scripts programming especially in debugging public streets data sets where I found a digitizing error and it makes me understand GIS spatial data more clearly. In the future, I hope I could improve this navigation toolbox by adding lanes and non public street shape files to generate an advanced version of navigation toolbox both for drivers and pedestrians.
 
-## Code
+<!-- ## Code
 
 _Python solution demo: shortest route calculation_
 
@@ -435,4 +435,4 @@ start,end = shortest(region,p_x,p_y,l_x,l_y)
 path = dijsktra(graph,start,end)
 navigation(path,region,street,destination_type,location_name)
 
-```
+``` -->

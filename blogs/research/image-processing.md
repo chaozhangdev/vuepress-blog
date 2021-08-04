@@ -456,19 +456,9 @@ public class P2 {
             the test
             int s;
             int[][] mask = new int[][] {
-                {
-                    0,
-                    1,
-                    0
-                }, {
-                    1,
-                    -4,
-                    1
-                }, {
-                    0,
-                    1,
-                    0
-                }
+                {0, 1, 0},
+                {1, -4, 1},
+                {0, 1, 0}
             }; // mask is
             the Laplacian sharpening
             // filter
