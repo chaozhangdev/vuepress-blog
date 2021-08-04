@@ -12,8 +12,8 @@ heroText: Chao Zhang
 #     background: "#fff",
 #     borderRadius: "1rem",
 #   }
-bgImage: "bulb-bg.jpg"
-bgImageStyle: { height: 300px }
+bgImage: "pure-white-bg.png"
+bgImageStyle: { height: 0px }
 # isShowTitleInHome: false
 # actionText: Guide
 # actionLink: /views/other/guide
