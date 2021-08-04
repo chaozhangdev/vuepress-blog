@@ -12,7 +12,7 @@ heroText: Chao Zhang
 #     background: "#fff",
 #     borderRadius: "1rem",
 #   }
-bgImage: "pure-white-bg.png"
+# bgImage: "pure-white-bg.png"
 bgImageStyle: { height: 0px }
 # isShowTitleInHome: false
 # actionText: Guide
