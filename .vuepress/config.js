@@ -2,12 +2,13 @@ module.exports = {
   title: "Chao Zhang",
   description: "Welcome to My Blog",
   dest: "public",
+  // the root path is 'public' folder
   head: [
     [
       "link",
       {
         rel: "icon",
-        href: "blackcat.png",
+        href: "coding-cat.png",
       },
     ],
     [
@@ -17,6 +18,7 @@ module.exports = {
         content: "width=device-width,initial-scale=1,user-scalable=no",
       },
     ],
+    ["script", { src: "./app.js" }],
   ],
   theme: "reco",
   themeConfig: {
