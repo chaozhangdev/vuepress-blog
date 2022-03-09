@@ -1,9 +1,12 @@
-Hi there, I’m Chao Zhang.
+Hi, my name is Chao Zhang.
 
-Currently I live in Vancouver working as a Software Engineer. My daily work include web and mobile dev. Most of the time, I focus on Front End Development.
+Currently, I live in Vancouver 🇨🇦 working as a software developer.
 
-I established [Coding Fun Education](https://www.codingfun.dev/) in 2019 Sep to provide students with online coding education. It lets students quickly learn the fundamental of different programming languages in a fun way.
+My daily projects include both web and mobile deveploment.
 
-Please contact me if you are interested in Coding Fun Education so we can work together to make it better.
+I am highly interested in MERN Stack and my technical skills include
+HTML, CSS, JavaScript, TypeScript, React, React Native, Vue, Styled Components, Node.js, MongoDB, Firebase and so on.
 
-In my spare time, I love making some fun projects, teaching students coding and playing video games.
+Outside of programming, for fun, I enjoy cooking, music and video games.
+
+Thank you for reading. Have a great day!
