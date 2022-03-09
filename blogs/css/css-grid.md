@@ -1,4 +1,4 @@
----
+<!-- ---
 title: CSS Grid Layout
 date: 2021-07-17
 tags:
@@ -442,4 +442,4 @@ Web:
 
 Mobile (<500px):
 
-![alt text](../../.vuepress/images/css-grid/8.png)
+![alt text](../../.vuepress/images/css-grid/8.png) -->

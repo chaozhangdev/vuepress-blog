@@ -17,7 +17,7 @@ My solution is: get the video from the local disk => generate the temp url and p
 
 There are genral 4 steps including uploading the video to the server
 
-Step 0: Get the video from local disk, obtain the temp video url to play and transfer it to array buffer
+## Step 0: Get the video from local disk, obtain the temp video url to play and transfer it to array buffer
 
 ```ts
 const getBinaryDataFromFile = async (e: any) => {
@@ -33,7 +33,7 @@ const getBinaryDataFromFile = async (e: any) => {
 };
 ```
 
-Step 1: Get the screen shot of the playing video to generate the cover image which is the first frame of the video
+## Step 1: Get the screen shot of the playing video to generate the cover image which is the first frame of the video
 
 Here, I used a node module called [video-snapshot](https://www.npmjs.com/package/video-snapshot)
 
@@ -46,7 +46,7 @@ const getScreenShotFromVideo = async (e: any) => {
 };
 ```
 
-Step 2: Put the cover image into AWS S3 bucket first
+## Step 2: Put the cover image into AWS S3 bucket first
 
 ```ts
 const canvas = await html2canvas(exportRef.current);
@@ -62,7 +62,7 @@ let res = await request.post("video/uploadCover", formData);
 const coverImgURL = res.data.code === 200 ? res.data.data.url : "";
 ```
 
-Step 3: Put the video into AWS S3 then, showing the real time percentage by the call back function in axios
+## Step 3: Put the video into AWS S3 then, showing the real time percentage by the call back function in axios
 
 ```ts
 res = await request.post("video/getUploadUrl");
@@ -82,7 +82,7 @@ await axios.put(videoURL, binaryFile, {
 
 "Content-Type": "video/mp4" is used to let the video in S3 playable instead of only downloadable
 
-Step 4: Commit uploading video with the cover image
+## Step 4: Commit uploading video with the cover image
 
 ```ts
     const payload = {
@@ -107,5 +107,3 @@ Step 4: Commit uploading video with the cover image
       });
   };
 ```
-
-Done.
