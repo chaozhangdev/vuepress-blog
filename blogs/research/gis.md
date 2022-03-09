@@ -7,7 +7,7 @@ tags:
   - GIS
 categories:
   - Research
-sticky: 1
+# sticky: 1
 ---
 
 ## Abstract
